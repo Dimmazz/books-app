@@ -1,0 +1,50 @@
+// colors
+$color-white: #FFFFFF;
+$color-black: #000000;
+
+$hue: 250;
+$sat: 66%;
+$lig: 75%;
+
+$color-primary:#A395E9;
+$color-primary-alt: #9584E6;
+
+$color-hover: rgba($color: $color-primary, $alpha: 0.04);
+$color-focus: rgba($color: $color-primary, $alpha: 0.12);
+$color-disabled: rgba($color: $color-white, $alpha: 0.38);
+
+$default-border: 1px solid rgba($color: $color-white, $alpha: 0.12);
+
+// color for DARK theme (default)
+$title-color: hsl($hue, 12%, 95%);
+$text-color: hsl($hue, 12%, 75%);
+
+$color-bg: hsl($hue, 40%, 8%);
+$color-bg-lighter: hsl($hue, 40%, 12%);
+$color-container: hsl($hue, 24%, 12%);
+
+$transition-default: 1.25s cubic-bezier(.2, .6, 0, 1);
+$transition-hover: .25s ease-out;
+
+// width screen
+$screen-desktop: 1920px;
+$screen-laptop: 1024px;
+$screen-tablet: 768px;
+$screen-big-mobile: 568px;
+$screen-mobile: 375px;
+
+
+// Font
+$font-main: sans-serif;
+
+// fontSize
+$fz-main: 16px; //
+
+$fz-primary: 1.15rem;
+$fz-large: 2.25rem;
+$fz-large-main: 2rem;
+$fz-small: 0.875rem;
+$fz-smaller: 0.75rem;
+$fz-h1: 1.75rem;
+$fz-h2: 1.5rem;
+$fz-h3: 1.25rem;

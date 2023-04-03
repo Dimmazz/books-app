@@ -1,0 +1,15 @@
+@import '../../styles/vars';
+
+.cards {
+  border-radius: .5em;
+  padding: 1rem 2rem;
+  background-color: $color-bg-lighter;
+  margin-bottom: 3rem;
+}
+
+.cards__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .5rem 1rem;
+}

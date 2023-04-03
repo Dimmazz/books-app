@@ -1,0 +1,28 @@
+@import '../../styles/vars';
+
+
+.cards__load-more {
+  margin-top: 2rem;
+  width: 100%;
+  height: 80px;
+
+  background-color: $color-container;
+  color: $color-primary-alt;
+  font-weight: 700;
+  font-size: $fz-large-main;
+
+  outline: none;
+  border: none;
+
+  border-radius: .5rem;
+
+  transition: background-color $transition-default,
+                    font-size $transition-default,
+                    color $transition-default;
+
+  &:hover {
+    color: $color-primary;
+    font-size: $fz-large;
+    background-color: $color-bg;
+  }
+}

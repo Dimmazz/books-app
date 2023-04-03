@@ -1,0 +1,14 @@
+@import '../../styles/vars';
+
+
+.header {
+  max-height: 60px;
+  padding: .5rem 0.25rem;
+}
+
+.header__name {
+  font-size: $fz-large;
+  color: $color-primary;
+  text-shadow: 3px 3px 4px rgba($color: $color-white, $alpha: .35);
+  cursor: pointer;
+}
